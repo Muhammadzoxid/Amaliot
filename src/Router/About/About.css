@@ -1,0 +1,53 @@
+.About {
+    border: 2px solid black;;
+    width: 350px;
+    height: 500px;
+    margin: 40px auto;
+    border-radius: 0 60px;
+}
+.input_4 p,
+.input_2 p ,
+.input_3 p, 
+.input p {
+   margin-right: 240px;
+
+}
+
+.About .input input,
+.About .input_3 input,
+.About .input_2 input,
+.About .input_4 input {
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    /* margin: 10px auto; */
+    outline: none;
+    padding-left: 10px;
+    margin-top: -20px;
+}
+
+
+
+
+.About button {
+    width: 200px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 40px auto;
+    outline: none;
+    padding-left: 10px;
+}
+
+.About button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+.About button:active {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
